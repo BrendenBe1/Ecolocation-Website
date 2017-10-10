@@ -1,0 +1,36 @@
+.navbar.bottom{
+  bottom: 0;
+  overflow: hidden;
+  position:fixed;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.navbar{
+  background-color: #757575;
+  overflow: hidden;
+}
+
+/*styling the specific elements of the navigation bar*/
+.navbar a{
+  float: left;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+/*A different style for the selected page*/
+.navbar a.active{
+  color: #f2f2f2;
+  background-color: #757575;
+  background-color: #007100;
+}
+
+/*styling for when the mouse hovers over the button*/
+.navbar a:hover{
+  background-color: white;
+  color: #007100;
+}
