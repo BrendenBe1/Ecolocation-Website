@@ -9,19 +9,12 @@
 				width:700px;
 				margin:0 auto;
 			}
-			p.setmarg{
-				margin:0px 165px 0px 0px
-			}
-			.img{
-				text-align: justify;
-				width: 150px
-				align: right;
-			}
-		</style>
+			</style>
 
-		<link rel="stylesheet" type="text/css"
-			href="navigationBarStyle.css">
+			<link rel="stylesheet" type="text/css"
+				href="navigationBarStyle.css">
 	</head>
+	
 	<body>
 		<div class="navbar top">
 			<a href=homepage2.html class="active">Home</a>
@@ -30,10 +23,7 @@
 			<a href="#demo">Demo</a>
 			<a href="#requirmenets">Requirements</a>
 			<a href="schedule">Schedule</a>
-			<a href="documents">Documents</a>
-			<a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a>
-			<a href=homepage2.html>Ecolocation</a>
-			<img src="Final_logo.png" style="vertical-align: middle;width:58px;height:50px;">
+			<a href="documents.html">Documents</a>
 		</div>
 
 		<div class="navbar bottom">
@@ -43,16 +33,38 @@
 			<a href="#demo">Demo</a>
 			<a href="#requirmenets">Requirements</a>
 			<a href="schedule">Schedule</a>
-			<a href="documents">Documents</a>
+			<a href="documents.html">Documents</a>
 		</div>
+
+
+		<h1>
 			<center>
-				<br><b>Requirements</b>
+				Ecolocation
+				<img src="Final_logo.png" style="vertical-align: middle;width:120px;height:120px;">
+				<span style="vertical-align: middle;"></span>
 			</center>
 		</h1>
 
 	<div class="center">
-			<p class="setmarg"> <br><br><center> Requirements Will Go Here </center>
-			</p>
+		<h2>
+		<center>Requirements</center>
+		</h2>
+		<h3>
+		<u>Mobile Application</U>
+		</h3>
+		<p>
+		Mobile Application that can do the following:
+		<ul>
+			<li> Get location (this can be actual location or chosen location) </li>
+			<li> Access database to get megafauna at specified location </li>
+			<li> Run calculations to display nutrient distribution </li>
+			<li> Display nutrient distribution to user along with list of megafauna at location </li>
+		</ul>
+		Application must also be fast. The user will not have to wait a long time to get results back. This will entail hosting the databases on 
+		AWS so all of the data is in one location where the user will be able to get results back quickly without having to store the data on their own device.
+		</p>
+		
+		
 	</div>
 	</body>
 </HTML>
